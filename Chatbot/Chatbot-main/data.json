@@ -1,0 +1,56 @@
+
+{"intents" : [
+        {"tag": "greeting",
+         "inputs": ["Hi", "How are you", "Hello", "Whats up", "Good to see you"],
+         "responses": ["Hello!", "Good to see you again!", "Hi, there", "How can I help you?", "Good to see you two", "It's a pleasure to meet you" 
+                        ],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "inputs": ["Seeyou", "Goodbye", "Have a good day", "Bye"],
+         "responses": ["Sad to see you go :(", "Goodbye!", "Talk to you later", "Have a great day!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "inputs": ["What is your name", "whats your name", "How can I call you", "Tell me your name"],
+         "responses": ["I am Trump!", "I'm Trump", "You can call me Trump", "My name is Trump"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "inputs": ["How old are you", "What is your age", "age?", "How old is Trump"],
+         "responses": ["I am 3 years old!", "I am just 3, a little baby", "I am younger than you :)"],
+         "context_set": ""
+        },
+        {"tag": "chat",
+         "inputs": ["I am bored", "Can I chat with you?", "Can I talk to you?", "I want to talk"],
+         "responses": ["I am here!", "Please talk to me", "I will be with you :)"],
+         "context_set": ""
+        },
+        {"tag": "sad",
+         "inputs": ["I just broke up", "I am sad", "I want to cry", "I am crying"],
+         "responses": ["Life is good", "Please don't", "You don't look good when you cry"],
+         "context_set": ""
+        },
+        {"tag": "happy",
+         "inputs": ["I am happy", "I just finished my final exam!", "I found my love", "I am excited about my life"],
+         "responses": ["I am happy for you", "Time to enjoy your life", "Congratulation!"],
+         "context_set": ""
+        },
+        {"tag": "gender",
+         "inputs": ["Are you a boy or girl", "What is your gender?", "gender?"],
+         "responses": ["My name is Trump of course I am a boy!", "I am a boy", "Why don't you take a guess?"],
+         "context_set": ""
+        },
+        {"tag": "covid", 
+         "inputs": ["cough", "fever", "chill", "shortness of breath", "difficulty breathing", "muscle ache", "body ache", "headache", 
+                        "smell loss", "taste loss", "sore throat", "runny nose", "congestion nose", "nausea", "vomiting", "diarrhea", 
+                        "I don't feel well", "I have a fever", "I lose my taste", "I lose my smell", "I feel tired", "Trouble breathing",
+                        "Persistent pain", "pressure in the chest", "I cannot stay awake", "My skin is paled"], 
+         "responses": ["I'm so sorry to hear that", "I suggest you do a self-check of COVID-19", "It's so glad that we have vaccine now",
+                        "Drink some hot water", "Do you want to do a COVID self-checking"],
+         "context_set": ""
+        }
+        ]
+        
+
+}

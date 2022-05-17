@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/hyx/Desktop/Chatbot/model.tflearn"
+all_model_checkpoint_paths: "/Users/hyx/Desktop/Chatbot/model.tflearn"
